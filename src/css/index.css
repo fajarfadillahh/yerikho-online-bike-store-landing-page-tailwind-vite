@@ -49,3 +49,17 @@
 .header__menu.show-menu {
   @apply opacity-100 scale-y-100;
 }
+
+/* ===== ABOUT SECTION ===== */
+.about__group {
+  @apply grid grid-cols-[repeat(auto-fit,minmax(320px,1fr))] justify-center;
+}
+.about__content {
+  @apply h-64 overflow-hidden;
+}
+.about__content:hover .about__content-img {
+  @apply scale-110;
+}
+.about__content-img {
+  @apply w-full h-full object-cover object-center transition-all duration-400;
+}
