@@ -63,3 +63,20 @@
 .about__content-img {
   @apply w-full h-full object-cover object-center transition-all duration-400;
 }
+
+/* ===== FEATURES SECTION ===== */
+.features__group {
+  @apply grid grid-cols-1 justify-center gap-6;
+}
+.features__content {
+  @apply p-12 bg-[#16191f] transition-all duration-400 hover:bg-yellow;
+}
+.features__content-number {
+  @apply text-[20px] text-yellow font-bold mb-2 transition-all duration-400 group-hover:text-black;
+}
+.features__content-title {
+  @apply text-[24px] text-white font-bold mb-4 transition-all duration-400 group-hover:text-black;
+}
+.features__content-text {
+  @apply text-[16px] text-grey transition-all duration-400 group-hover:text-black;
+}
