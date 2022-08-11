@@ -97,3 +97,42 @@
 .products__content-text {
   @apply text-[20px] text-yellow;
 }
+
+/* ===== FAQ SECTION =====  */
+.faq__accordion {
+  @apply grid;
+}
+.faq__accordion-item {
+  @apply bg-transparent border-b-[1.5px] border-solid border-[rgba(123,126,136,0.5)] transition-all duration-400;
+}
+.faq__accordion-header {
+  @apply flex justify-between items-center gap-2 py-8 cursor-pointer;
+}
+.faq__accordion-data {
+  @apply inline-flex items-center gap-4;
+}
+.faq__accordion-number {
+  @apply text-[32px] text-grey font-bold transition-all duration-400;
+}
+.faq__accordion-title {
+  @apply text-[20px] text-grey font-bold transition-all duration-400;
+}
+.faq__accordion-icon {
+  @apply inline-flex text-[2rem] text-yellow transition-all duration-400;
+}
+.faq__accordion-content {
+  @apply overflow-hidden h-0 transition-all duration-400;
+}
+.faq__accordion-text {
+  @apply text-[16px] text-grey leading-text pb-8 pl-12;
+}
+/* accordion open */
+.accordion-open .faq__accordion-icon {
+  @apply rotate-90;
+}
+.accordion-open .faq__accordion-number {
+  @apply text-yellow;
+}
+.accordion-open .faq__accordion-title {
+  @apply text-white;
+}
