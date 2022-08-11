@@ -168,3 +168,8 @@
 .footer__content-sosmed {
   @apply w-11 h-11 inline-flex justify-center items-center p-2 bg-transparent ring-[1.5px] ring-grey rounded-[50%] text-[1.5rem] text-white transition-all duration-400 hover:bg-yellow hover:ring-transparent hover:text-black;
 }
+
+/* ===== SCROLLUP SECTION ===== */
+.scrollup.scroll-action {
+  @apply bottom-12;
+}
