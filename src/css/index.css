@@ -194,3 +194,30 @@
     @apply w-[400px];
   }
 }
+
+/* width 640px */
+@screen sm {
+  .section-title {
+    @apply text-[56px];
+  }
+
+  .about__container,
+  .products__data,
+  .faq__data,
+  .discover__data,
+  .discover__content-data {
+    @apply w-[500px];
+  }
+
+  .about__text {
+    @apply w-[400px] mx-auto;
+  }
+
+  .products__content-wrapper {
+    @apply h-[350px];
+  }
+
+  .discover__content-img {
+    @apply w-[500px];
+  }
+}
