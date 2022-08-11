@@ -154,3 +154,17 @@
 .discover__content-icon {
   @apply w-14 h-14 inline-flex justify-center items-center p-4 bg-transparent ring-[1.5px] ring-grey rounded-[50%] text-[1.5rem] text-yellow;
 }
+
+/* ===== FOOTER SECTION ===== */
+.footer__content-title {
+  @apply text-[20px] text-white font-bold uppercase mb-4;
+}
+.footer__content-text {
+  @apply text-[16px] text-grey leading-text;
+}
+.footer__content-list {
+  @apply flex items-center gap-3;
+}
+.footer__content-sosmed {
+  @apply w-11 h-11 inline-flex justify-center items-center p-2 bg-transparent ring-[1.5px] ring-grey rounded-[50%] text-[1.5rem] text-white transition-all duration-400 hover:bg-yellow hover:ring-transparent hover:text-black;
+}
