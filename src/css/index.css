@@ -136,3 +136,21 @@
 .accordion-open .faq__accordion-title {
   @apply text-white;
 }
+
+/* ===== DISCOVER SECTION ===== */
+.discover__content {
+  @apply grid gap-12;
+}
+.discover__content-data,
+.discover__content-img {
+  @apply justify-self-center;
+}
+.discover__content-text {
+  @apply text-[20px] text-grey font-bold leading-text mb-6;
+}
+.discover__content-button {
+  @apply inline-flex items-center gap-4 text-[16px] text-white font-bold leading-text uppercase;
+}
+.discover__content-icon {
+  @apply w-14 h-14 inline-flex justify-center items-center p-4 bg-transparent ring-[1.5px] ring-grey rounded-[50%] text-[1.5rem] text-yellow;
+}
