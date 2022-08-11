@@ -299,3 +299,67 @@
     @apply flex-row justify-between;
   }
 }
+
+/* width 1120px */
+@screen xl {
+  /* home section */
+  .home__wrapper {
+    @apply h-screen;
+  }
+  .home__subtitle {
+    @apply text-[20px];
+  }
+  .home__title {
+    @apply text-[108px];
+  }
+
+  /* about section */
+  .about__container {
+    @apply w-[900px];
+  }
+  .about__title {
+    @apply text-[108px];
+  }
+  .about__text {
+    @apply text-[20px] w-[500px];
+  }
+  .about__content {
+    @apply h-[350px];
+  }
+
+  .section-subtitle,
+  .features__content-text {
+    @apply text-[20px];
+  }
+
+  .features__content-title,
+  .products__content-title {
+    @apply text-[32px];
+  }
+
+  /* faq section */
+  .faq__accordion {
+    @apply w-[930px];
+  }
+  .faq__accordion-number {
+    @apply text-[48px];
+  }
+  .faq__accordion-title {
+    @apply text-[32px];
+  }
+  .faq__accordion-text {
+    @apply w-[700px] text-[20px] pl-32;
+  }
+
+  .discover__content-text {
+    @apply w-[500px] text-[32px];
+  }
+
+  /* footer section */
+  .footer__group {
+    @apply items-start;
+  }
+  .footer__content {
+    @apply justify-self-center;
+  }
+}
