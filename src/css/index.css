@@ -368,3 +368,11 @@
 ::selection {
   @apply bg-yellow bg-opacity-80 text-black;
 }
+
+/* ===== ::-WEBKIT-SCROLLBAR ===== */
+::-webkit-scrollbar {
+  @apply w-2 bg-white bg-opacity-5;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-white bg-opacity-10 rounded-full hover:bg-opacity-20;
+}
