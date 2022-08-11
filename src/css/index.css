@@ -173,3 +173,24 @@
 .scrollup.scroll-action {
   @apply bottom-12;
 }
+
+/* ===== MEDIA QUERIES ===== */
+/* width 480px */
+@screen xs {
+  .about__container,
+  .products__data,
+  .faq__data,
+  .discover__data,
+  .discover__content-data {
+    @apply w-[400px];
+  }
+
+  .products__group,
+  .features__group {
+    @apply grid-cols-[0.9fr];
+  }
+
+  .discover__content-img {
+    @apply w-[400px];
+  }
+}
